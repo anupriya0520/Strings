@@ -1,0 +1,12 @@
+class Main {
+    public static void main(String[] args) {
+        String st="Sruthi Likes Reading Books And Playing Games";
+        StringBuffer sb=new StringBuffer(st);
+        String arr[]=sb.toString().split(" ");
+        for(int i=0;i<arr.length;i++){
+            if(i%2!=0){
+                System.out.println(arr[i]);
+            }
+        }
+    }
+}
